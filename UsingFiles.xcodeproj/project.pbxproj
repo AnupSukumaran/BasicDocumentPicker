@@ -12,6 +12,8 @@
 		5A69122821293A1D002AFAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A69122621293A1D002AFAA3 /* Main.storyboard */; };
 		5A69122A21293A20002AFAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A69122921293A20002AFAA3 /* Assets.xcassets */; };
 		5A69122D21293A20002AFAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A69122B21293A20002AFAA3 /* LaunchScreen.storyboard */; };
+		5A691235212971D5002AFAA3 /* pdfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A691234212971D5002AFAA3 /* pdfTableViewCell.swift */; };
+		5A69123721298EC2002AFAA3 /* PDFViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A69123621298EC2002AFAA3 /* PDFViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5A69122921293A20002AFAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A69122C21293A20002AFAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A69122E21293A20002AFAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A691234212971D5002AFAA3 /* pdfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfTableViewCell.swift; sourceTree = "<group>"; };
+		5A69123621298EC2002AFAA3 /* PDFViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				5A69122121293A1D002AFAA3 /* UsingFiles */,
-				5A69122021293A1D002AFAA3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +52,7 @@
 				5A69121F21293A1D002AFAA3 /* UsingFiles.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5A69122121293A1D002AFAA3 /* UsingFiles */ = {
@@ -56,10 +60,13 @@
 			children = (
 				5A69122221293A1D002AFAA3 /* AppDelegate.swift */,
 				5A69122421293A1D002AFAA3 /* ViewController.swift */,
+				5A691234212971D5002AFAA3 /* pdfTableViewCell.swift */,
+				5A69123621298EC2002AFAA3 /* PDFViewerViewController.swift */,
 				5A69122621293A1D002AFAA3 /* Main.storyboard */,
 				5A69122921293A20002AFAA3 /* Assets.xcassets */,
 				5A69122B21293A20002AFAA3 /* LaunchScreen.storyboard */,
 				5A69122E21293A20002AFAA3 /* Info.plist */,
+				5A69122021293A1D002AFAA3 /* Products */,
 			);
 			path = UsingFiles;
 			sourceTree = "<group>";
@@ -136,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A69122521293A1D002AFAA3 /* ViewController.swift in Sources */,
+				5A691235212971D5002AFAA3 /* pdfTableViewCell.swift in Sources */,
 				5A69122321293A1D002AFAA3 /* AppDelegate.swift in Sources */,
+				5A69123721298EC2002AFAA3 /* PDFViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
